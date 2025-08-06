@@ -10,6 +10,7 @@ public class WishMessageGenerator
 	
 	public WishMessageGenerator(LocalTime time, LocalDate date)
 	{
+		System.out.println("WishMessageGenerator.WishMessageGenerator()");
 		this.lTime=time;
 		this.lDate=date;
 	}
